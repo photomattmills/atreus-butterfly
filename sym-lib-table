@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name atreus-butterfly-62-rescue)(type Legacy)(uri ${KIPRJMOD}/atreus-butterfly-62-rescue.lib)(options "")(descr ""))
+  (lib (name Switch)(type Legacy)(uri ${KIPRJMOD}/Switch.lib)(options "")(descr ""))
+)
