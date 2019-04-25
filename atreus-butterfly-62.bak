@@ -20,7 +20,7 @@ U 1 1 5C561F12
 P 3200 2800
 F 0 "U1" H 2250 4500 50  0000 C CNN
 F 1 "ATMEGA32U4-MU" H 3900 1300 50  0000 C CNN
-F 2 "ourglass_v7:QFN_44" H 3200 2800 50  0001 C CIN
+F 2 "Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm" H 3200 2800 50  0001 C CIN
 F 3 "" H 4300 3900 50  0001 C CNN
 	1    3200 2800
 	1    0    0    -1  
@@ -1090,38 +1090,10 @@ Wire Wire Line
 Connection ~ 11400 3150
 Connection ~ 11400 4150
 Connection ~ 11400 5150
-Connection ~ 11700 4450
-Connection ~ 11700 5450
-$Comp
-L Switch:SW_Push SW31
-U 1 1 5C5842CF
-P 12600 5650
-F 0 "SW31" H 12650 5750 50  0000 L CNN
-F 1 "SW_Push" H 12600 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 12600 5850 50  0001 C CNN
-F 3 "" H 12600 5850 50  0001 C CNN
-	1    12600 5650
-	0    1    1    0   
-$EndComp
-$Comp
-L device:D D31
-U 1 1 5C5842D5
-P 12450 6150
-F 0 "D31" H 12450 6250 50  0000 C CNN
-F 1 "D" H 12450 6050 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 12450 6150 50  0001 C CNN
-F 3 "" H 12450 6150 50  0001 C CNN
-	1    12450 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12600 5850 12600 6150
 Connection ~ 10700 1450
 Connection ~ 10700 2450
 Connection ~ 10700 3450
 Connection ~ 10700 4450
-Wire Wire Line
-	12300 2150 12300 5150
 Text Label 6600 2150 2    60   ~ 0
 Column_1
 Text Label 7600 2150 2    60   ~ 0
@@ -1134,10 +1106,6 @@ Text Label 10400 2150 2    60   ~ 0
 Column_5
 Text Label 11400 2150 2    60   ~ 0
 Column_6
-Text Label 4300 2550 0    60   ~ 0
-Column_7
-Text Label 12300 2150 0    60   ~ 0
-Column_7
 Connection ~ 8800 2450
 Connection ~ 8800 3450
 Connection ~ 8800 4450
@@ -1199,39 +1167,11 @@ Wire Wire Line
 	3400 5450 3400 5300
 Wire Wire Line
 	3300 5750 3400 5750
-Connection ~ 9650 5450
 Connection ~ 9800 5450
-Connection ~ 10550 5450
 Connection ~ 10700 5450
-Connection ~ 8650 1450
 Connection ~ 8800 1450
 Wire Wire Line
 	1400 2600 1600 2600
-$Comp
-L Switch:SW_Push SW32
-U 1 1 5C5B3E5C
-P 12600 4650
-F 0 "SW32" H 12650 4750 50  0000 L CNN
-F 1 "SW_Push" H 12600 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 12600 4850 50  0001 C CNN
-F 3 "" H 12600 4850 50  0001 C CNN
-	1    12600 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L device:D D32
-U 1 1 5C5B3E62
-P 12450 5150
-F 0 "D32" H 12450 5250 50  0000 C CNN
-F 1 "D" H 12450 5050 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 12450 5150 50  0001 C CNN
-F 3 "" H 12450 5150 50  0001 C CNN
-	1    12450 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12600 4850 12600 5150
-Connection ~ 12300 5150
 $Comp
 L device:R_Small R4
 U 1 1 5C5B4F3C
@@ -1326,10 +1266,6 @@ Wire Wire Line
 Wire Wire Line
 	11400 5150 11400 6150
 Wire Wire Line
-	11700 4450 12600 4450
-Wire Wire Line
-	11700 5450 12600 5450
-Wire Wire Line
 	10700 1450 11700 1450
 Wire Wire Line
 	10700 2450 11700 2450
@@ -1344,17 +1280,15 @@ Wire Wire Line
 Wire Wire Line
 	8800 4450 9800 4450
 Wire Wire Line
+	10700 5450 11700 5450
+Wire Wire Line
+	8800 1450 9800 1450
+Wire Wire Line
 	9650 5450 9800 5450
 Wire Wire Line
 	10550 5450 10700 5450
 Wire Wire Line
-	10700 5450 11700 5450
-Wire Wire Line
 	8650 1450 8800 1450
-Wire Wire Line
-	8800 1450 9800 1450
-Wire Wire Line
-	12300 5150 12300 6150
 Wire Wire Line
 	8800 5450 9800 5450
 Wire Wire Line
