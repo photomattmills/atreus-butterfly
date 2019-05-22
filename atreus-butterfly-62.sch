@@ -41,7 +41,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 2350 2050 2400
 $Comp
-L device:R_Small R1
+L atreus-butterfly-62-rescue:R_Small-device R1
 U 1 1 5C562003
 P 1700 2500
 F 0 "R1" H 1730 2520 50  0000 L CNN
@@ -52,7 +52,7 @@ F 3 "" H 1700 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R2
+L atreus-butterfly-62-rescue:R_Small-device R2
 U 1 1 5C56218B
 P 1700 2750
 F 0 "R2" H 1730 2770 50  0000 L CNN
@@ -94,7 +94,7 @@ $EndComp
 Wire Wire Line
 	1100 3000 1100 3100
 $Comp
-L device:Crystal Y1
+L atreus-butterfly-62-rescue:Crystal-device Y1
 U 1 1 5C562B61
 P 1700 1750
 F 0 "Y1" H 1700 1900 50  0000 C CNN
@@ -113,7 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1900 2050 1850
 $Comp
-L device:C_Small C2
+L atreus-butterfly-62-rescue:C_Small-device C2
 U 1 1 5C562BE3
 P 1400 1750
 F 0 "C2" H 1410 1820 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "" H 1400 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C1
+L atreus-butterfly-62-rescue:C_Small-device C1
 U 1 1 5C562C22
 P 1100 1750
 F 0 "C1" H 1110 1820 50  0000 L CNN
@@ -204,7 +204,7 @@ $EndComp
 Wire Wire Line
 	3000 900  3000 1000
 $Comp
-L device:C_Small C3
+L atreus-butterfly-62-rescue:C_Small-device C3
 U 1 1 5C569127
 P 1700 3750
 F 0 "C3" H 1710 3820 50  0000 L CNN
@@ -230,7 +230,7 @@ $EndComp
 Wire Wire Line
 	1700 3850 1700 4000
 $Comp
-L device:R_Small R3
+L atreus-butterfly-62-rescue:R_Small-device R3
 U 1 1 5C56923D
 P 1850 1150
 F 0 "R3" H 1880 1170 50  0000 L CNN
@@ -257,7 +257,7 @@ Wire Wire Line
 	1850 950  1850 1050
 Connection ~ 3000 1000
 $Comp
-L device:C_Small C4
+L atreus-butterfly-62-rescue:C_Small-device C4
 U 1 1 5C56937E
 P 1750 3150
 F 0 "C4" H 1760 3220 50  0000 L CNN
@@ -305,13 +305,13 @@ U 1 1 5C57F11F
 P 6900 1650
 F 0 "SW1" H 6950 1750 50  0000 L CNN
 F 1 "SW_Push" H 6900 1590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 6900 1850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 6900 1850 50  0001 C CNN
 F 3 "" H 6900 1850 50  0001 C CNN
 	1    6900 1650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D1
+L atreus-butterfly-62-rescue:D-device D1
 U 1 1 5C57F125
 P 6750 2150
 F 0 "D1" H 6750 2250 50  0000 C CNN
@@ -351,13 +351,13 @@ U 1 1 5C581C50
 P 6900 2650
 F 0 "SW2" H 6950 2750 50  0000 L CNN
 F 1 "SW_Push" H 6900 2590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 6900 2850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 6900 2850 50  0001 C CNN
 F 3 "" H 6900 2850 50  0001 C CNN
 	1    6900 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D2
+L atreus-butterfly-62-rescue:D-device D2
 U 1 1 5C581C56
 P 6750 3150
 F 0 "D2" H 6750 3250 50  0000 C CNN
@@ -375,13 +375,13 @@ U 1 1 5C581D59
 P 6900 3650
 F 0 "SW3" H 6950 3750 50  0000 L CNN
 F 1 "SW_Push" H 6900 3590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 6900 3850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 6900 3850 50  0001 C CNN
 F 3 "" H 6900 3850 50  0001 C CNN
 	1    6900 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D3
+L atreus-butterfly-62-rescue:D-device D3
 U 1 1 5C581D5F
 P 6750 4150
 F 0 "D3" H 6750 4250 50  0000 C CNN
@@ -399,13 +399,13 @@ U 1 1 5C581D66
 P 6900 4650
 F 0 "SW4" H 6950 4750 50  0000 L CNN
 F 1 "SW_Push" H 6900 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 6900 4850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 6900 4850 50  0001 C CNN
 F 3 "" H 6900 4850 50  0001 C CNN
 	1    6900 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D4
+L atreus-butterfly-62-rescue:D-device D4
 U 1 1 5C581D6C
 P 6750 5150
 F 0 "D4" H 6750 5250 50  0000 C CNN
@@ -423,13 +423,13 @@ U 1 1 5C581DC5
 P 6900 5650
 F 0 "SW5" H 6950 5750 50  0000 L CNN
 F 1 "SW_Push" H 6900 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 6900 5850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 6900 5850 50  0001 C CNN
 F 3 "" H 6900 5850 50  0001 C CNN
 	1    6900 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D5
+L atreus-butterfly-62-rescue:D-device D5
 U 1 1 5C581DCB
 P 6750 6150
 F 0 "D5" H 6750 6250 50  0000 C CNN
@@ -452,13 +452,13 @@ U 1 1 5C582D93
 P 7900 1650
 F 0 "SW6" H 7950 1750 50  0000 L CNN
 F 1 "SW_Push" H 7900 1590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 7900 1850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 7900 1850 50  0001 C CNN
 F 3 "" H 7900 1850 50  0001 C CNN
 	1    7900 1650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D6
+L atreus-butterfly-62-rescue:D-device D6
 U 1 1 5C582D99
 P 7750 2150
 F 0 "D6" H 7750 2250 50  0000 C CNN
@@ -476,13 +476,13 @@ U 1 1 5C582DA0
 P 7900 2650
 F 0 "SW7" H 7950 2750 50  0000 L CNN
 F 1 "SW_Push" H 7900 2590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 7900 2850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 7900 2850 50  0001 C CNN
 F 3 "" H 7900 2850 50  0001 C CNN
 	1    7900 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D7
+L atreus-butterfly-62-rescue:D-device D7
 U 1 1 5C582DA6
 P 7750 3150
 F 0 "D7" H 7750 3250 50  0000 C CNN
@@ -500,13 +500,13 @@ U 1 1 5C582DAD
 P 7900 3650
 F 0 "SW8" H 7950 3750 50  0000 L CNN
 F 1 "SW_Push" H 7900 3590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 7900 3850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 7900 3850 50  0001 C CNN
 F 3 "" H 7900 3850 50  0001 C CNN
 	1    7900 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D8
+L atreus-butterfly-62-rescue:D-device D8
 U 1 1 5C582DB3
 P 7750 4150
 F 0 "D8" H 7750 4250 50  0000 C CNN
@@ -524,13 +524,13 @@ U 1 1 5C582DBA
 P 7900 4650
 F 0 "SW9" H 7950 4750 50  0000 L CNN
 F 1 "SW_Push" H 7900 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 7900 4850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 7900 4850 50  0001 C CNN
 F 3 "" H 7900 4850 50  0001 C CNN
 	1    7900 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D9
+L atreus-butterfly-62-rescue:D-device D9
 U 1 1 5C582DC0
 P 7750 5150
 F 0 "D9" H 7750 5250 50  0000 C CNN
@@ -548,13 +548,13 @@ U 1 1 5C582DC7
 P 7900 5650
 F 0 "SW10" H 7950 5750 50  0000 L CNN
 F 1 "SW_Push" H 7900 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 7900 5850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 7900 5850 50  0001 C CNN
 F 3 "" H 7900 5850 50  0001 C CNN
 	1    7900 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D10
+L atreus-butterfly-62-rescue:D-device D10
 U 1 1 5C582DCD
 P 7750 6150
 F 0 "D10" H 7750 6250 50  0000 C CNN
@@ -592,13 +592,13 @@ U 1 1 5C58399F
 P 8800 1650
 F 0 "SW11" H 8850 1750 50  0000 L CNN
 F 1 "SW_Push" H 8800 1590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 8800 1850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 8800 1850 50  0001 C CNN
 F 3 "" H 8800 1850 50  0001 C CNN
 	1    8800 1650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D11
+L atreus-butterfly-62-rescue:D-device D11
 U 1 1 5C5839A5
 P 8650 2150
 F 0 "D11" H 8650 2250 50  0000 C CNN
@@ -616,13 +616,13 @@ U 1 1 5C5839AC
 P 8800 2650
 F 0 "SW12" H 8850 2750 50  0000 L CNN
 F 1 "SW_Push" H 8800 2590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 8800 2850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 8800 2850 50  0001 C CNN
 F 3 "" H 8800 2850 50  0001 C CNN
 	1    8800 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D12
+L atreus-butterfly-62-rescue:D-device D12
 U 1 1 5C5839B2
 P 8650 3150
 F 0 "D12" H 8650 3250 50  0000 C CNN
@@ -640,13 +640,13 @@ U 1 1 5C5839B9
 P 8800 3650
 F 0 "SW13" H 8850 3750 50  0000 L CNN
 F 1 "SW_Push" H 8800 3590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 8800 3850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 8800 3850 50  0001 C CNN
 F 3 "" H 8800 3850 50  0001 C CNN
 	1    8800 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D13
+L atreus-butterfly-62-rescue:D-device D13
 U 1 1 5C5839BF
 P 8650 4150
 F 0 "D13" H 8650 4250 50  0000 C CNN
@@ -664,13 +664,13 @@ U 1 1 5C5839C6
 P 8800 4650
 F 0 "SW14" H 8850 4750 50  0000 L CNN
 F 1 "SW_Push" H 8800 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 8800 4850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 8800 4850 50  0001 C CNN
 F 3 "" H 8800 4850 50  0001 C CNN
 	1    8800 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D14
+L atreus-butterfly-62-rescue:D-device D14
 U 1 1 5C5839CC
 P 8650 5150
 F 0 "D14" H 8650 5250 50  0000 C CNN
@@ -688,13 +688,13 @@ U 1 1 5C5839D3
 P 8800 5650
 F 0 "SW15" H 8850 5750 50  0000 L CNN
 F 1 "SW_Push" H 8800 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 8800 5850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 8800 5850 50  0001 C CNN
 F 3 "" H 8800 5850 50  0001 C CNN
 	1    8800 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D15
+L atreus-butterfly-62-rescue:D-device D15
 U 1 1 5C5839D9
 P 8650 6150
 F 0 "D15" H 8650 6250 50  0000 C CNN
@@ -717,13 +717,13 @@ U 1 1 5C5839E4
 P 9800 1650
 F 0 "SW16" H 9850 1750 50  0000 L CNN
 F 1 "SW_Push" H 9800 1590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 9800 1850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 9800 1850 50  0001 C CNN
 F 3 "" H 9800 1850 50  0001 C CNN
 	1    9800 1650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D16
+L atreus-butterfly-62-rescue:D-device D16
 U 1 1 5C5839EA
 P 9650 2150
 F 0 "D16" H 9650 2250 50  0000 C CNN
@@ -741,13 +741,13 @@ U 1 1 5C5839F1
 P 9800 2650
 F 0 "SW17" H 9850 2750 50  0000 L CNN
 F 1 "SW_Push" H 9800 2590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 9800 2850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 9800 2850 50  0001 C CNN
 F 3 "" H 9800 2850 50  0001 C CNN
 	1    9800 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D17
+L atreus-butterfly-62-rescue:D-device D17
 U 1 1 5C5839F7
 P 9650 3150
 F 0 "D17" H 9650 3250 50  0000 C CNN
@@ -765,13 +765,13 @@ U 1 1 5C5839FE
 P 9800 3650
 F 0 "SW18" H 9850 3750 50  0000 L CNN
 F 1 "SW_Push" H 9800 3590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 9800 3850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 9800 3850 50  0001 C CNN
 F 3 "" H 9800 3850 50  0001 C CNN
 	1    9800 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D18
+L atreus-butterfly-62-rescue:D-device D18
 U 1 1 5C583A04
 P 9650 4150
 F 0 "D18" H 9650 4250 50  0000 C CNN
@@ -789,13 +789,13 @@ U 1 1 5C583A0B
 P 9800 4650
 F 0 "SW19" H 9850 4750 50  0000 L CNN
 F 1 "SW_Push" H 9800 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 9800 4850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 9800 4850 50  0001 C CNN
 F 3 "" H 9800 4850 50  0001 C CNN
 	1    9800 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D19
+L atreus-butterfly-62-rescue:D-device D19
 U 1 1 5C583A11
 P 9650 5150
 F 0 "D19" H 9650 5250 50  0000 C CNN
@@ -813,13 +813,13 @@ U 1 1 5C583A18
 P 9800 5650
 F 0 "SW20" H 9850 5750 50  0000 L CNN
 F 1 "SW_Push" H 9800 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 9800 5850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 9800 5850 50  0001 C CNN
 F 3 "" H 9800 5850 50  0001 C CNN
 	1    9800 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D20
+L atreus-butterfly-62-rescue:D-device D20
 U 1 1 5C583A1E
 P 9650 6150
 F 0 "D20" H 9650 6250 50  0000 C CNN
@@ -846,13 +846,13 @@ U 1 1 5C584207
 P 10700 1650
 F 0 "SW21" H 10750 1750 50  0000 L CNN
 F 1 "SW_Push" H 10700 1590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 10700 1850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 10700 1850 50  0001 C CNN
 F 3 "" H 10700 1850 50  0001 C CNN
 	1    10700 1650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D21
+L atreus-butterfly-62-rescue:D-device D21
 U 1 1 5C58420D
 P 10550 2150
 F 0 "D21" H 10550 2250 50  0000 C CNN
@@ -870,13 +870,13 @@ U 1 1 5C584214
 P 10700 2650
 F 0 "SW22" H 10750 2750 50  0000 L CNN
 F 1 "SW_Push" H 10700 2590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 10700 2850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 10700 2850 50  0001 C CNN
 F 3 "" H 10700 2850 50  0001 C CNN
 	1    10700 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D22
+L atreus-butterfly-62-rescue:D-device D22
 U 1 1 5C58421A
 P 10550 3150
 F 0 "D22" H 10550 3250 50  0000 C CNN
@@ -894,13 +894,13 @@ U 1 1 5C584221
 P 10700 3650
 F 0 "SW23" H 10750 3750 50  0000 L CNN
 F 1 "SW_Push" H 10700 3590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 10700 3850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 10700 3850 50  0001 C CNN
 F 3 "" H 10700 3850 50  0001 C CNN
 	1    10700 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D23
+L atreus-butterfly-62-rescue:D-device D23
 U 1 1 5C584227
 P 10550 4150
 F 0 "D23" H 10550 4250 50  0000 C CNN
@@ -918,13 +918,13 @@ U 1 1 5C58422E
 P 10700 4650
 F 0 "SW24" H 10750 4750 50  0000 L CNN
 F 1 "SW_Push" H 10700 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 10700 4850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 10700 4850 50  0001 C CNN
 F 3 "" H 10700 4850 50  0001 C CNN
 	1    10700 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D24
+L atreus-butterfly-62-rescue:D-device D24
 U 1 1 5C584234
 P 10550 5150
 F 0 "D24" H 10550 5250 50  0000 C CNN
@@ -942,13 +942,13 @@ U 1 1 5C58423B
 P 10700 5650
 F 0 "SW25" H 10750 5750 50  0000 L CNN
 F 1 "SW_Push" H 10700 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 10700 5850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 10700 5850 50  0001 C CNN
 F 3 "" H 10700 5850 50  0001 C CNN
 	1    10700 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D25
+L atreus-butterfly-62-rescue:D-device D25
 U 1 1 5C584241
 P 10550 6150
 F 0 "D25" H 10550 6250 50  0000 C CNN
@@ -971,13 +971,13 @@ U 1 1 5C58424C
 P 11700 1650
 F 0 "SW26" H 11750 1750 50  0000 L CNN
 F 1 "SW_Push" H 11700 1590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 11700 1850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 11700 1850 50  0001 C CNN
 F 3 "" H 11700 1850 50  0001 C CNN
 	1    11700 1650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D26
+L atreus-butterfly-62-rescue:D-device D26
 U 1 1 5C584252
 P 11550 2150
 F 0 "D26" H 11550 2250 50  0000 C CNN
@@ -995,13 +995,13 @@ U 1 1 5C584259
 P 11700 2650
 F 0 "SW27" H 11750 2750 50  0000 L CNN
 F 1 "SW_Push" H 11700 2590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 11700 2850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 11700 2850 50  0001 C CNN
 F 3 "" H 11700 2850 50  0001 C CNN
 	1    11700 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D27
+L atreus-butterfly-62-rescue:D-device D27
 U 1 1 5C58425F
 P 11550 3150
 F 0 "D27" H 11550 3250 50  0000 C CNN
@@ -1019,13 +1019,13 @@ U 1 1 5C584266
 P 11700 3650
 F 0 "SW28" H 11750 3750 50  0000 L CNN
 F 1 "SW_Push" H 11700 3590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 11700 3850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 11700 3850 50  0001 C CNN
 F 3 "" H 11700 3850 50  0001 C CNN
 	1    11700 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D28
+L atreus-butterfly-62-rescue:D-device D28
 U 1 1 5C58426C
 P 11550 4150
 F 0 "D28" H 11550 4250 50  0000 C CNN
@@ -1043,13 +1043,13 @@ U 1 1 5C584273
 P 11700 4650
 F 0 "SW29" H 11750 4750 50  0000 L CNN
 F 1 "SW_Push" H 11700 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 11700 4850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 11700 4850 50  0001 C CNN
 F 3 "" H 11700 4850 50  0001 C CNN
 	1    11700 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D29
+L atreus-butterfly-62-rescue:D-device D29
 U 1 1 5C584279
 P 11550 5150
 F 0 "D29" H 11550 5250 50  0000 C CNN
@@ -1067,13 +1067,13 @@ U 1 1 5C584280
 P 11700 5650
 F 0 "SW30" H 11750 5750 50  0000 L CNN
 F 1 "SW_Push" H 11700 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 11700 5850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 11700 5850 50  0001 C CNN
 F 3 "" H 11700 5850 50  0001 C CNN
 	1    11700 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D30
+L atreus-butterfly-62-rescue:D-device D30
 U 1 1 5C584286
 P 11550 6150
 F 0 "D30" H 11550 6250 50  0000 C CNN
@@ -1098,13 +1098,13 @@ U 1 1 5C5842CF
 P 12600 5650
 F 0 "SW31" H 12650 5750 50  0000 L CNN
 F 1 "SW_Push" H 12600 5590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 12600 5850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 12600 5850 50  0001 C CNN
 F 3 "" H 12600 5850 50  0001 C CNN
 	1    12600 5650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D31
+L atreus-butterfly-62-rescue:D-device D31
 U 1 1 5C5842D5
 P 12450 6150
 F 0 "D31" H 12450 6250 50  0000 C CNN
@@ -1199,11 +1199,8 @@ Wire Wire Line
 	3400 5450 3400 5300
 Wire Wire Line
 	3300 5750 3400 5750
-Connection ~ 9650 5450
 Connection ~ 9800 5450
-Connection ~ 10550 5450
 Connection ~ 10700 5450
-Connection ~ 8650 1450
 Connection ~ 8800 1450
 Wire Wire Line
 	1400 2600 1600 2600
@@ -1213,13 +1210,13 @@ U 1 1 5C5B3E5C
 P 12600 4650
 F 0 "SW32" H 12650 4750 50  0000 L CNN
 F 1 "SW_Push" H 12600 4590 50  0000 C CNN
-F 2 "ourglass_v7:Kailh_low_profile" H 12600 4850 50  0001 C CNN
+F 2 "kailh:Kailh_low_profile" H 12600 4850 50  0001 C CNN
 F 3 "" H 12600 4850 50  0001 C CNN
 	1    12600 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D32
+L atreus-butterfly-62-rescue:D-device D32
 U 1 1 5C5B3E62
 P 12450 5150
 F 0 "D32" H 12450 5250 50  0000 C CNN
@@ -1233,7 +1230,7 @@ Wire Wire Line
 	12600 4850 12600 5150
 Connection ~ 12300 5150
 $Comp
-L device:R_Small R4
+L atreus-butterfly-62-rescue:R_Small-device R4
 U 1 1 5C5B4F3C
 P 4650 3750
 F 0 "R4" H 4680 3770 50  0000 L CNN
@@ -1344,17 +1341,17 @@ Wire Wire Line
 Wire Wire Line
 	8800 4450 9800 4450
 Wire Wire Line
-	9650 5450 9800 5450
-Wire Wire Line
-	10550 5450 10700 5450
-Wire Wire Line
 	10700 5450 11700 5450
-Wire Wire Line
-	8650 1450 8800 1450
 Wire Wire Line
 	8800 1450 9800 1450
 Wire Wire Line
 	12300 5150 12300 6150
+Wire Wire Line
+	9650 5450 9800 5450
+Wire Wire Line
+	10550 5450 10700 5450
+Wire Wire Line
+	8650 1450 8800 1450
 Wire Wire Line
 	8800 5450 9800 5450
 Wire Wire Line

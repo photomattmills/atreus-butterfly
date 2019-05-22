@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name kailh)(type KiCad)(uri ${KIPRJMOD}/kailh.pretty)(options "")(descr ""))
+  (lib (name MCU-ATMEGA32U4-MUR_VQFN44_)(type Legacy)(uri /Users/matt/Downloads/MCU-ATMEGA32U4-MUR_VQFN44_/MCU-ATMEGA32U4-MUR_VQFN44_.mod)(options "")(descr ""))
 )
